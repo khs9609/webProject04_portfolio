@@ -8,7 +8,6 @@ a { text-decoration: none;color : #000;}
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-
     height : 80px;
     padding : 25px 90px;
 }
@@ -39,8 +38,8 @@ a { text-decoration: none;color : #000;}
 /* ==== section 영역 ==== */
 
 .section {
-    height : 800px;
-    background-image: url("man_style.jpg");
+    height : 900px;
+    background-image: url("/man_style.jpg");
     background-size: cover;
 }
 .section .intro {
