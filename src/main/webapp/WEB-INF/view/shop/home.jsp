@@ -13,30 +13,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
 
     <link href="css/home_style.css" type="text/css" rel="stylesheet" />
-    <title>노미나 - Know Me Now</title>
+    <title>Know Me Now</title>
 </head>
 
 <body>
     <div class="wrap">
-        <div class="header">
+		<div class="header">
             <div class="left_header">
-                <div class="lh_logo"><a href="#">KNOW ME NOW</a></div>
+                <div class="lh_logo"><a href="home.do">KNOW ME NOW</a></div>
                 <ul class="lh_list">
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="shop.do">SHOP</a></li>
+                    <li><a href="about.do">ABOUT</a></li>
+                    <li><a href="gallery.do">GALLERY</a></li>
                 </ul>
             </div>
             <ul class="right_header">
-                <li><a href="#">LOG IN</a></li>
+                <li><a href="login.do">LOG IN</a></li>
                 <li><a href="#">CART</a></li>
             </ul>
         </div>
-
         <div class="section">
-            <div class="intro">
-
-            </div>
 
         </div>
 
