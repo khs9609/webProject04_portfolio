@@ -7,8 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ShopController {
 
 	@RequestMapping("/home.do")
-	public String home() {
+	public String Home() {
 		
 		return "home";
+	}
+	@RequestMapping("/shop.do")
+	public String Shop() {
+		
+		return "shop";
 	}
 }
