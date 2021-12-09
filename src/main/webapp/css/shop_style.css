@@ -1,0 +1,117 @@
+@charset "UTF-8";
+* { list-style : none; }
+a { text-decoration: none;color : #000;}
+.wrap { margin : auto; border : 1px splid #000; }
+
+/* ==== 01. Header 영역 ==== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height : 80px;
+    padding : 25px 90px;
+}
+.header .left_header,
+.header .right_header{
+    display : flex;
+}
+.header .left_header .lh_logo,
+.header .left_header .lh_list {
+    display: flex;
+}
+.header .left_header .lh_logo {
+    font-size : 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.header .left_header .lh_list,
+.header .right_header li {
+    margin-top : 6px;
+    font-size: 14px;
+}
+.header .left_header .lh_list li {
+    margin-left : 20px;
+}
+.header .right_header li {
+    margin-right : 20px;
+}
+/* ==== section 영역 ==== */
+.section {
+    padding-top : 100px;
+    padding-bottom : 100px;
+    margin : auto;
+    width : 80%;
+    margin : auto;
+}
+.section .top_menu {
+    text-align: center;
+    border-bottom: 1px dashed #000;
+    margin-bottom : 30px;
+}
+.section .top_menu .title {
+    font-size : 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.section .top_menu .category {
+    display : flex;
+    justify-content: center;
+    text-align: center;
+}
+.section .top_menu .category li {
+    margin : 22px;
+    text-align: center;
+}
+
+.section .product {
+    display: flex;
+    justify-content: center;
+    margin-left : 100px;
+    margin-right : 100px;
+}
+.section .product .product01 {
+    padding : 20px;
+    margin : 30px;
+    text-align: center;
+    width : 400px;
+    /* background-color: #f1f2f6; */
+    border : 1px solid #ddd;
+}
+.section .product .product01 .product_img img{
+    width : 335px;
+    height : 400px;
+}
+.section .product .product01 .product_img img:hover{
+    transform : scale(1.05); 
+    transition: transform .35s;
+    
+}
+.section .product .product01 .product_name {
+    text-align: center;
+    padding-top : 10px;
+}
+.section .product .product01 .product_intro {
+    text-align: center;
+}
+
+
+/* ==== footer 영역 ==== */
+.footer {
+    padding : 10px 90px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: rgb(238, 238, 238);
+    font-size: 11px;
+}
+.footer .link {
+    padding-top: 10px;
+    padding-bottom : 5px;
+}
+.footer .link a {
+    margin-left : 10px;
+    margin-right : 10px;
+}
+.footer .main {
+    font-size: 13px;
+
+}
