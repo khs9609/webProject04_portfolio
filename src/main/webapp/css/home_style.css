@@ -39,11 +39,8 @@ a { text-decoration: none;color : #000;}
 
 .section {
     height : 900px;
-    background-image: url("/man_style.jpg");
+    background-image: url("shop_img/man_style.jpg");
     background-size: cover;
-}
-.section .intro {
-    color : #fff;
 }
 
 /* ==== footer 영역 ==== */
