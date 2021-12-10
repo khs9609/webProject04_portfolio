@@ -16,4 +16,9 @@ public class ShopController {
 		
 		return "shop";
 	}
+	@RequestMapping("/about.do")
+	public String About() {
+		
+		return "about";
+	}
 }
