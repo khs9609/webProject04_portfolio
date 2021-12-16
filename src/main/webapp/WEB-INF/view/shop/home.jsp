@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
 
     <link href="css/home_style.css" type="text/css" rel="stylesheet" />
-    <title>Know Me Now</title>
+    <title>Home - Know Me Now</title>
 </head>
 
 <body>
