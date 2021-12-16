@@ -30,10 +30,10 @@ a { text-decoration: none;color : #000;}
     font-size: 14px;
 }
 .header .left_header .lh_list li {
-    margin-left : 20px;
+    margin-left : 45px;
 }
 .header .right_header li {
-    margin-right : 20px;
+    margin-right : 45px;
 }
 /* ==== section 영역 ==== */
 .section {
@@ -59,7 +59,7 @@ a { text-decoration: none;color : #000;}
     text-align: center;
 }
 .section .top_menu .category li {
-    margin : 22px;
+    margin : 30px;
     text-align: center;
 }
 
