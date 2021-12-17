@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* { list-style : none; }
+a { text-decoration: none;color : #000;}
+.wrap { margin : auto; border : 1px splid #000; }
+
+/* ==== 01. Header 영역 ==== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height : 80px;
+    padding : 25px 90px;
+}
+.header .left_header,
+.header .right_header{
+    display : flex;
+}
+.header .left_header .lh_logo,
+.header .left_header .lh_list {
+    display: flex;
+}
+.header .left_header .lh_logo {
+    font-size : 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.header .left_header .lh_list,
+.header .right_header li {
+    margin-top : 6px;
+    font-size: 14px;
+}
+.header .left_header .lh_list li {
+    margin-left : 45px;
+}
+.header .right_header li {
+    margin-right : 45px;
+}
+/* ==== section 영역 ==== */
+.section {
+    padding-top : 100px;
+    padding-bottom : 100px;
+    margin : auto;
+    width : 80%;
+    text-align : center;
+    justify-content: space-between;
+}
+.section .gal_title {
+	margin-bottom: 100px;
+}
+.section .gal_title h1 {
+	text-align : center;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+}
+
+.section img {
+	width : 417px;
+	height : 300px;
+	text-align : center;
+	padding : 10px;
+}
+
+
+/* ==== footer 영역 ==== */
+.footer {
+    padding : 10px 90px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: rgb(238, 238, 238);
+    font-size: 11px;
+}
+.footer .link {
+    padding-top: 10px;
+    padding-bottom : 5px;
+}
+.footer .link a {
+    margin-left : 10px;
+    margin-right : 10px;
+}
+.footer .main {
+    font-size: 13px;
+
+}
