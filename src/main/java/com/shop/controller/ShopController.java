@@ -21,4 +21,10 @@ public class ShopController {
 		
 		return "about";
 	}
+	
+	@RequestMapping("/gallery.do")
+	public String Gallery() {
+		
+		return "gallery";
+	}
 }
