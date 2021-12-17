@@ -70,9 +70,9 @@
                 <a href="#">사업자 정보 확인</a>
             </div>
             <div class="main">
-                    삼호명 : 노미나 | 대표 : 김효섭 | 이메일 : rlagytjq321@naver.com <br>
-                    주소 : 울산광역시 남구 삼호로 12345 | Tel. 010 - 1234 - 5678<br>
-                    Copyright 김효섭 All rights reserved
+				상호명 : 노미나 | 대표 : 김효섭 | 이메일 : rlagytjq321@naver.com <br>
+				주소 : 울산광역시 남구 삼호로 12345 | Tel. 010 - 1234 - 5678<br>
+				Copyright 김효섭 All rights reserved
             </div>
             <div class="copyright">
 
