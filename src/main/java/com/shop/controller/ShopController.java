@@ -6,23 +6,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ShopController {
 
-	@RequestMapping("/home.do")
+	@RequestMapping("home.do")
 	public String Home() {
 		
 		return "home";
 	}
-	@RequestMapping("/shop.do")
+	@RequestMapping("shop.do")
 	public String Shop() {
 		
 		return "shop";
 	}
-	@RequestMapping("/about.do")
+	@RequestMapping("about.do")
 	public String About() {
 		
 		return "about";
 	}
 	
-	@RequestMapping("/gallery.do")
+	@RequestMapping("gallery.do")
 	public String Gallery() {
 		
 		return "gallery";
